@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/card_view"
+    android:layout_margin="6dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <ImageView
@@ -34,11 +35,12 @@
     <TextView
         android:id="@+id/newsdesc"
         android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:maxLines="4"
         android:textStyle="normal"
         android:textSize="13sp"
         android:textColor="#A69E9E"
-        android:layout_height="35dp"
+        android:padding="6dp"
         android:layout_marginHorizontal="6dp"
         app:layout_constraintTop_toBottomOf="@id/newsTitle"
         app:layout_constraintStart_toStartOf="parent"
